@@ -2,9 +2,9 @@
 lang-ref: about
 title: About
 description: Lorem markdownum spatium limes indefessus neque at orat aestuat
-background: /assets/images/moss.jpg
+background: /assets/images/placeholders/moss.jpg
 imageLicense: |
-  Photo by mhoefft via [gbif.org](https://www.gbif.org/occurrence/1580487687)
+  None for this image, but it would normally go here. Markdown is allowed.
 height: 70vh
 ---
 
