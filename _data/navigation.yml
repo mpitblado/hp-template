@@ -2,28 +2,19 @@
 
 - text: About
   href: /about
-# - text: Occurrences
-#   href: /occurrence/search
-- text: Data
-  menu: 
-  - text: Occurrences
-    href: /occurrence/search
-  - text: Institutions
-    href: /institution/search
-  - text: Collections
-    href: /collection/search
-- text: Example pages
-  menu: # Dropdown menu (one level deep only)
-  - text: Simple
-    href: /example-pages/simple
-  - text: Complex
-    href: /example-pages/complex
-- text: Links
+- text: Observations
+  href: /occurrence/search
+- text: Taxonomy
+  href: /taxonomy
+  menu: #Dropdown menu
+  - text: Browse
+    href: /taxonomy/browse
+  - text: Advanced search
+    href: /taxonomy/search
+- text: Examples
   menu: # Dropdown menu (one level deep only)
   - text: Base theme demo
     href: https://hp-base-theme.gbif-staging.org/
-  - text: Other sites using the theme
-    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
   - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
   - text: "Docs" # Title for block of menu items
   - text: Jekyll documentation
