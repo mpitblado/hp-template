@@ -1,3 +1,22 @@
+
+stories:
+  # Title (Optional)
+  title: Stories
+  # Description (Optional)
+  description: |
+    Forth beginning form dry thing. Form seed void likeness darkness light. Can’t created third upon spirit fruitful hath likeness their. Replenish saw female night they’re you blessed all greater cattle, grass god fifth you’re. Above wherein replenish face multiply male every. Own hath lights under creeping.
+  useSiteLinkWhenPossible: true # experimental - use the resource page when possible. See https://github.com/gbif/hp-france/issues/1
+  # Filters
+  # Use these options to tailor the content displayed in your block.
+  filters:
+    contentType: 
+      - DATA_USE
+      - NEWS
+      # - EVENT
+    limit: 6 
+    # locale:
+    #   - fr
+
 stats:
   klass: contentTypesStat
   # title: "type: stats"

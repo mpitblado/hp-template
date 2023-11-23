@@ -6,23 +6,26 @@ description: Lesser saw seas own have can’t kind Also to every own yielding th
 background:  "{{ site.data.images.acalypha_gillespieae.src }}"
 imageLicense: "{{ site.data.images.acalypha_gillespieae.caption }}"
 height: 90vh
+height: 70vh
+permalink: /
+navbar: 
+  color: "transparent"        # What color should the navbar be?
+  hasWhiteText: true          # Should the text color be white?
+  floating: true
 cta:
-  - text: Institutions
-    href: /institution/search
+  - text: Occurrences
+    href: /occurrence/search
     isPrimary: true
-  - text: Specimens
-    href: /specimen/search
   - text: About
     href: /about
 composition:
-  - type: heroImage # the block type
-  - type: stats
-    data: examples.stats
+  - type: heroImage
+  - type: stories
+    data: examples.stories
   - type: split
     data: examples.herbariumImageExample
   - type: features
     data: examples.couldBeAnyName
-permalink: /
 ---
 
 Edit `/home.md` to change the text.
